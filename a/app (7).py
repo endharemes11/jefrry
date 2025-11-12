@@ -5,7 +5,7 @@ import numpy as np
 from ultralytics import YOLO
 import os
 
-model_path = '/content/best (7).pt'
+model_path = 'best (7).pt'
 if not os.path.exists(model_path):
     st.error(f"Error: Model file not found at {model_path}")
 else:

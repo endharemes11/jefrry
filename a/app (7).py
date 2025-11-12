@@ -1,4 +1,6 @@
-
+import cv2
+import streamlit as st
+st.write("✅ OpenCV version:", cv2.__version__)
 import streamlit as st
 from PIL import Image
 import numpy as np

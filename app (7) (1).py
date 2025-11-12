@@ -1,7 +1,3 @@
-import os
-
-# 🔧 Install library sistem yang dibutuhkan OpenCV di Streamlit Cloud
-os.system("apt-get update -qq && apt-get install -y libgl1 libglib2.0-0 > /dev/null")
 
 import cv2
 import streamlit as st
